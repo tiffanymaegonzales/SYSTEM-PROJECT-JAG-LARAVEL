@@ -1,0 +1,38 @@
+
+		
+		h1{
+			padding: 30px;
+		}
+
+		body{
+			background-image: url('../im/blue.jpg');
+			color: white;
+			border: 2px solid white;
+			font-weight: bold;
+		}
+	
+		table,tr,th{
+			width: 1000px;
+			padding: 20px;
+			height: 40px;
+			border: 2px solid white;
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+		a{
+			padding: 0px;
+			border: 1px solid white;
+			background-color: white;
+			text-decoration: none;
+			color: black;
+		}
+		button{
+			width: 10px;
+			height: 5px;
+		}
+
+		.print{
+			padding: 30px;
+			margin-left: 0px;
+		}

@@ -1,0 +1,238 @@
+<style type="text/css">
+
+/*
+LOG In
+*/
+
+	.a{
+		font-size: 10px;
+	}
+		body{
+			background-image: url('../im/water.jpg');
+			background-size: cover;
+			
+		}
+
+
+		div.loginheader{
+			text-align: center;
+		}
+		div.loginheader{
+			margin-bottom:2px;
+		}
+		div.loginheader h1{
+			font-size: 50px;
+			font-weight: bold;
+			color:   black;
+			padding: 0px;
+			margin: 0px;
+			border: 2px  solid blue;
+			border-radius: 50px 50px 50px 50px;
+		}
+		div.loginheader p{
+			color: black;
+			font-size: 40px;
+			margin: 50px;
+			text-transform: uppercase;
+			display: inline-block;
+
+		}
+		div.loginheader p:after{
+			content: "";
+			display: block;
+			height: 5px;
+			background: black;
+			width: 100%;
+			margin: 0 auto;
+		}
+		div.loginbody form{
+			margin: 0 auto;
+			width: 350px;
+			background: rgba(0,0,0,.5);
+			padding: 20px;
+			border: 2px solid black;
+			border-radius: 8px;
+
+		}
+		div.loginInput{
+			margin-top: 10px;
+		}
+		div.loginInput label{
+			display: block;
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+		div.loginInput input{
+			height: 20px;
+			width: 95%;
+			border: 2px solid black;
+			font-size: 20px;
+			padding: 5px;
+			text-align: center;
+			font-style: italic;
+
+		}
+
+		div.loginbuttoncontainer{
+			margin-top: 20px;
+			text-align: center;
+
+		}
+
+		div.loginbuttoncontainer button{
+			font-size: 15px;
+			padding:  10px;
+			background: lightblue;
+			border: none;
+			color: black;
+			font-weight: bold;
+
+		}
+		div.regislog a{
+			font-size: 15px;
+			font-weight: bold;
+			text-align: center;
+			text-decoration: none;
+			color: white;
+		}
+
+
+/*
+ REGISTER
+
+*/
+
+		  .d{
+        font-size: 10px;
+    }
+    .body {
+        background-image: url('../im/water.jpg');
+        background-size: cover;
+    }
+    div.regisbody form{
+            margin: 0 auto;
+            width: 550px;
+            background: rgba(8,0,0,.8);
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 8px;
+
+        }
+
+        .regisbody input{
+            width: 300px;
+            height: 50px;
+            border-radius: 15px 15px 15px 15px;
+        }
+       .iam {
+
+    padding: 0px;
+    border: 1px solid black;
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: Arial;
+        }
+        h1{
+            color: lightblue;
+        }
+
+
+
+       /*
+		DASHBOARD
+       */
+
+.c{
+	font-style: Arial;
+}
+.dashboard {
+	background-image: url('../im/water.jpg');
+	background-size: cover; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-image: url('../water1.jpg');
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: lightblue;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+	div.inventcontainer {
+			margin: 0 auto;
+			width: 1000px;
+			height: 500px;
+			background: rgba(8,0,0,.8);
+			padding: 20px;
+			border: 2px solid black;
+			border-radius: 8px;
+
+		}
+
+		div.item label{
+			font-size: 20px;
+			color: white;
+			border: 2px ;
+		}
+
+		div.item input{
+				width: 160px;
+
+		}
+		h1{
+			color: white;
+		}
+
+		 select{
+			width: 167px;
+			height: 23px;
+		}
+		 .view a{
+		 	padding: 0px;
+    		border: 1px solid black;
+    		background-color: lightblue;
+   			 text-decoration: none;
+   			 color: black;
+    		font-weight: bold;
+    		font-style: Arial;
+		 }
+		 strong{
+		 	color: white;
+		 }
+		
+
+		  /*
+
+		  */
+
+
+	</style>
